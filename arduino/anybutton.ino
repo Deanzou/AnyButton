@@ -18,7 +18,7 @@ void setup() {
   // while (!Serial);
 
   // initialize Parse SDK
-  parse.begin("RPGFgLceYztXQ3osT3TAV9tCAefChiHPbfmqibb2", "sogCVKV7mxsNuYAjaaWvRPmuKf0ag1yyHmDxBn7w");
+  parse.begin("PARSE_APPLICATION_KEY", "PARSE_CLIENT_ID");
 
   Serial.println("setup done!");
 }
