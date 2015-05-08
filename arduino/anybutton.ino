@@ -1,8 +1,6 @@
 #include <Parse.h>
 #include <Bridge.h>
 
-ParseClient parse;
-
 void setup() {
   // Initialize digital pin 13 as an output.
   pinMode(13, OUTPUT);
@@ -18,7 +16,7 @@ void setup() {
   // while (!Serial);
 
   // initialize Parse SDK
-  parse.begin("PARSE_APPLICATION_KEY", "PARSE_CLIENT_ID");
+  Parse.begin("PARSE_APPLICATION_KEY", "PARSE_CLIENT_ID");
 
   Serial.println("setup done!");
 }
