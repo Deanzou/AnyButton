@@ -1,5 +1,3 @@
-# [Archive] AnyButton
-
-**Note:** *This repository is not under active development.*
+# AnyButton
 
 A Parse powered button to order anything you want!
